@@ -8,22 +8,40 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".TabelPeriodikHome"
+        <activity
+            android:name=".TabelPeriodikHome"
             android:screenOrientation="landscape">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"
-                   />
+                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER"
-                    />
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".H"
-            android:theme="@style/AppTheme.CustomTheme">
-        </activity>
-        <activity android:name=".Li"
-            android:theme="@style/AppTheme.CustomTheme">
-        </activity>
+        <activity
+            android:name=".H"
+            android:theme="@style/AppTheme.CustomTheme"></activity>
+        <activity
+            android:name=".Li"
+            android:theme="@style/AppTheme.CustomTheme"></activity>
+        <activity
+            android:name=".MengurutkanUnsur"
+            android:label="Mengurutkan Unsur"
+            android:screenOrientation="landscape"></activity>
+        <activity
+            android:name=".SingleItemView"
+            android:screenOrientation="landscape"></activity>
+        <activity
+            android:name=".MudahMenghafal"
+            android:label="Mudah Menghafal"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".RumusRumus"
+            android:label="Rumus-Rumus"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".IsiRumusRumus"
+            android:label="Penjelasan"
+            android:screenOrientation="landscape"></activity>
     </application>
 
 </manifest>
