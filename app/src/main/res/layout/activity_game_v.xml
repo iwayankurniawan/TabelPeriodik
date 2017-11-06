@@ -1,0 +1,185 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".game" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="IA"
+            android:id="@+id/IA"
+            android:layout_weight="1"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="IIA"
+            android:id="@+id/IIA"
+            android:layout_weight="1"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="IIIA"
+            android:id="@+id/IIIA"
+            android:layout_weight="1"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="IVA"
+            android:id="@+id/IVA"
+            android:layout_weight="1"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VA"
+            android:id="@+id/VA"
+            android:layout_weight="1"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VIA"
+            android:id="@+id/VIA"
+            android:layout_weight="1"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VIIA"
+            android:id="@+id/VIIA"
+            android:layout_weight="1"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VIIIA"
+            android:id="@+id/VIIIA"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/position_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/shape">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/position_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/shape">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/position_3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/shape">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/position_4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/shape">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/position_5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/shape">
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/position_all"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/shape"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/quiz_h"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/n"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="40dp"
+                android:tag="h" />
+
+            <ImageView
+                android:id="@+id/quiz_li"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/p"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="50dp"/>
+
+            <ImageView
+                android:id="@+id/quiz_na"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/as"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="90dp"/>
+
+            <ImageView
+                android:id="@+id/quiz_k"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sb"
+                android:layout_marginLeft="300dp"
+                android:layout_marginTop="100dp"/>
+
+            <ImageView
+                android:id="@+id/quiz_rb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bi"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="100dp"/>
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
