@@ -19,6 +19,8 @@ public class TabelPeriodikHome extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tabel_periodik_home);
 
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         ImageButton h = (ImageButton) findViewById(R.id.H);
         ImageButton li = (ImageButton) findViewById(R.id.Li);
 
@@ -45,22 +47,33 @@ public class TabelPeriodikHome extends AppCompatActivity {
         return true;
     }
 
+
     @Override
-    public boolean onOptionsItemSelected(MenuItem item) { switch(item.getItemId()) {
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch(item.getItemId()) {
+            /*
         case R.id.add:
             startActivity(new Intent(TabelPeriodikHome.this,RumusRumus.class));
             return(true);
         case R.id.reset:
             startActivity(new Intent(TabelPeriodikHome.this,MudahMenghafal.class));
-            return(true);
+            return(true);*/
         case R.id.about:
             startActivity(new Intent(TabelPeriodikHome.this,MengurutkanUnsur.class));
             return(true);
+       /* case R.id.game:
+            startActivity(new Intent(TabelPeriodikHome.this,game.class));
+            return(true);
         case R.id.exit:
             finish();
-            return(true);
-
+            return(true);*/
     }
         return(super.onOptionsItemSelected(item));
+    }
+
+    @Override
+    public boolean onSupportNavigateUp(){
+        finish();
+        return true;
     }
 }

@@ -16,6 +16,8 @@ public class RumusRumus extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_rumus_rumus);
 
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         ImageButton GoToAfinitasElektron = (ImageButton) findViewById(R.id.AfinitasElektron);
         GoToAfinitasElektron.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -57,5 +59,11 @@ public class RumusRumus extends AppCompatActivity {
         Intent intent = new Intent(this, IsiRumusRumus.class);
         intent.putExtra("my_score", score);
         startActivity(intent);
+    }
+
+    @Override
+    public boolean onSupportNavigateUp(){
+        finish();
+        return true;
     }
 }

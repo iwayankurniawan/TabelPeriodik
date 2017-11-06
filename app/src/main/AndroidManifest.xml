@@ -10,6 +10,59 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".TabelPeriodikHome"
+            android:screenOrientation="landscape"></activity>
+        <activity
+            android:name=".H"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".Li"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".MengurutkanUnsur"
+            android:label="Jenis-Jenis Unsur"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".SingleItemView"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".MudahMenghafal"
+            android:label="Jembatan Keledai"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".RumusRumus"
+            android:label="Sifat-Sifat Keperiodikan"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".IsiRumusRumus"
+            android:label="Penjelasan"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".game"
+            android:label="Game"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".gameIIA"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".gameIIIA"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".gameIVA"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".gameVA"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".gameVIA"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".gameVIIA"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".gameVIIIA"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".MainHome"
             android:screenOrientation="landscape">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -17,31 +70,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".H"
-            android:theme="@style/AppTheme.CustomTheme"></activity>
-        <activity
-            android:name=".Li"
-            android:theme="@style/AppTheme.CustomTheme"></activity>
-        <activity
-            android:name=".MengurutkanUnsur"
-            android:label="Mengurutkan Unsur"
-            android:screenOrientation="landscape"></activity>
-        <activity
-            android:name=".SingleItemView"
-            android:screenOrientation="landscape"></activity>
-        <activity
-            android:name=".MudahMenghafal"
-            android:label="Mudah Menghafal"
-            android:screenOrientation="landscape" />
-        <activity
-            android:name=".RumusRumus"
-            android:label="Rumus-Rumus"
-            android:screenOrientation="landscape" />
-        <activity
-            android:name=".IsiRumusRumus"
-            android:label="Penjelasan"
-            android:screenOrientation="landscape"></activity>
+        <activity android:name=".tentang"
+            android:screenOrientation="landscape"
+            android:label="Tentang"></activity>
     </application>
 
 </manifest>

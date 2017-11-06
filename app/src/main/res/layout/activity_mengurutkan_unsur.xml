@@ -9,105 +9,96 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:paddingTop="10dp"
         android:layout_weight="1">
 
         <CheckBox
             android:id="@+id/aktinida"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="20dp"
             android:checked="false"
-            android:padding="5dp"
+            android:layout_margin="3dp"
             android:text="Aktinida"
             android:textStyle="bold|italic" />
 
         <CheckBox
             android:id="@+id/bukanlogam"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="20dp"
             android:checked="false"
-            android:padding="5dp"
+            android:layout_margin="3dp"
             android:text="Bukan Logam"
             android:textStyle="bold|italic" />
 
         <CheckBox
             android:id="@+id/gasmulia"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="20dp"
             android:checked="false"
-            android:padding="5dp"
+            android:layout_margin="3dp"
             android:text="Gas Mulia"
             android:textStyle="bold|italic" />
 
         <CheckBox
             android:id="@+id/halogen"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="20dp"
             android:checked="false"
-            android:padding="5dp"
+            android:layout_margin="3dp"
             android:text="Halogen"
             android:textStyle="bold|italic" />
 
         <CheckBox
             android:id="@+id/lantanida"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="20dp"
             android:checked="false"
-            android:padding="2dp"
+            android:layout_margin="3dp"
             android:text="Lantanida"
             android:textStyle="bold|italic" />
 
-    </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:paddingTop="10dp"
-            android:layout_weight="1">
 
         <CheckBox
             android:id="@+id/logamalkali"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="20dp"
             android:checked="false"
-            android:padding="5dp"
+            android:layout_margin="3dp"
             android:text="Logam Alkali"
             android:textStyle="bold|italic" />
 
         <CheckBox
             android:id="@+id/logamalkalitanah"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="20dp"
             android:checked="false"
-            android:padding="5dp"
+            android:layout_margin="3dp"
             android:text="Logam Alkali Tanah"
             android:textStyle="bold|italic" />
 
         <CheckBox
             android:id="@+id/logamtransisi"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="20dp"
             android:checked="false"
-            android:padding="5dp"
+            android:layout_margin="3dp"
             android:text="Logam Transisi"
             android:textStyle="bold|italic" />
 
         <CheckBox
             android:id="@+id/metaloids"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="20dp"
             android:checked="false"
-            android:padding="5dp"
+            android:layout_margin="3dp"
             android:text="Metaloids"
             android:textStyle="bold|italic" />
 
         <CheckBox
             android:id="@+id/poslogamtransisi"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="40dp"
             android:checked="false"
-            android:padding="5dp"
+            android:layout_margin="3dp"
             android:text="Pos Logam Transisi"
             android:textStyle="bold|italic" />
 
@@ -124,6 +115,7 @@
         <Spinner
             android:id="@+id/SearchHuruf"
             android:layout_width="match_parent"
+            android:visibility="invisible"
             android:layout_height="match_parent"></Spinner>
 
         <ListView
@@ -131,7 +123,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
     </LinearLayout>
-    
+
 
 
 

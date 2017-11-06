@@ -38,6 +38,8 @@ public class MengurutkanUnsur extends AppCompatActivity implements AdapterView.O
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mengurutkan_unsur);
 
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
 
         // Generate sample data
         GambarUnsur = new int[][]{
@@ -100,16 +102,15 @@ public class MengurutkanUnsur extends AppCompatActivity implements AdapterView.O
             public void onClick(View view) {
                 if (aktinida.isChecked()) {
                     nilai = 1;
-                    bukanlogam.setChecked(false);bukanlogam.setClickable(false);
-                    gasmulia.setChecked(false);gasmulia.setClickable(false);
-                    halogen.setChecked(false);halogen.setClickable(false);
-                    lantanida.setChecked(false);lantanida.setClickable(false);
-                    logamalkali.setChecked(false);logamalkali.setClickable(false);
-                    logamalkalitanah.setChecked(false);logamalkalitanah.setClickable(false);
-                    logamtransisi.setChecked(false);logamtransisi.setClickable(false);
-                    metaloids.setChecked(false);metaloids.setClickable(false);
-                    poslogamtransisi.setChecked(false);poslogamtransisi.setClickable(false);
-
+                    bukanlogam.setChecked(false);bukanlogam.setClickable(true);
+                    gasmulia.setChecked(false);gasmulia.setClickable(true);
+                    halogen.setChecked(false);halogen.setClickable(true);
+                    lantanida.setChecked(false);lantanida.setClickable(true);
+                    logamalkali.setChecked(false);logamalkali.setClickable(true);
+                    logamalkalitanah.setChecked(false);logamalkalitanah.setClickable(true);
+                    logamtransisi.setChecked(false);logamtransisi.setClickable(true);
+                    metaloids.setChecked(false);metaloids.setClickable(true);
+                    poslogamtransisi.setChecked(false);poslogamtransisi.setClickable(true);
                     selanjutnya();
 
                 }
@@ -129,15 +130,15 @@ public class MengurutkanUnsur extends AppCompatActivity implements AdapterView.O
             public void onClick(View view) {
                 if (bukanlogam.isChecked()) {
                     nilai = 2;
-                    aktinida.setChecked(false);aktinida.setClickable(false);
-                    gasmulia.setChecked(false);gasmulia.setClickable(false);
-                    halogen.setChecked(false);halogen.setClickable(false);
-                    lantanida.setChecked(false);lantanida.setClickable(false);
-                    logamalkali.setChecked(false);logamalkali.setClickable(false);
-                    logamalkalitanah.setChecked(false);logamalkalitanah.setClickable(false);
-                    logamtransisi.setChecked(false);logamtransisi.setClickable(false);
-                    metaloids.setChecked(false);metaloids.setClickable(false);
-                    poslogamtransisi.setChecked(false);poslogamtransisi.setClickable(false);
+                    aktinida.setChecked(false);aktinida.setClickable(true);
+                    gasmulia.setChecked(false);gasmulia.setClickable(true);
+                    halogen.setChecked(false);halogen.setClickable(true);
+                    lantanida.setChecked(false);lantanida.setClickable(true);
+                    logamalkali.setChecked(false);logamalkali.setClickable(true);
+                    logamalkalitanah.setChecked(false);logamalkalitanah.setClickable(true);
+                    logamtransisi.setChecked(false);logamtransisi.setClickable(true);
+                    metaloids.setChecked(false);metaloids.setClickable(true);
+                    poslogamtransisi.setChecked(false);poslogamtransisi.setClickable(true);
                     selanjutnya();
 
                 }
@@ -156,15 +157,15 @@ public class MengurutkanUnsur extends AppCompatActivity implements AdapterView.O
             public void onClick(View view) {
                 if (gasmulia.isChecked()) {
                     nilai = 3;
-                    aktinida.setChecked(false);aktinida.setClickable(false);
-                    bukanlogam.setChecked(false);bukanlogam.setClickable(false);
-                    halogen.setChecked(false);halogen.setClickable(false);
-                    lantanida.setChecked(false);lantanida.setClickable(false);
-                    logamalkali.setChecked(false);logamalkali.setClickable(false);
-                    logamalkalitanah.setChecked(false);logamalkalitanah.setClickable(false);
-                    logamtransisi.setChecked(false);logamtransisi.setClickable(false);
-                    metaloids.setChecked(false);metaloids.setClickable(false);
-                    poslogamtransisi.setChecked(false);poslogamtransisi.setClickable(false);
+                    aktinida.setChecked(false);aktinida.setClickable(true);
+                    bukanlogam.setChecked(false);bukanlogam.setClickable(true);
+                    halogen.setChecked(false);halogen.setClickable(true);
+                    lantanida.setChecked(false);lantanida.setClickable(true);
+                    logamalkali.setChecked(false);logamalkali.setClickable(true);
+                    logamalkalitanah.setChecked(false);logamalkalitanah.setClickable(true);
+                    logamtransisi.setChecked(false);logamtransisi.setClickable(true);
+                    metaloids.setChecked(false);metaloids.setClickable(true);
+                    poslogamtransisi.setChecked(false);poslogamtransisi.setClickable(true);
                     selanjutnya();
                 }
                 else {
@@ -182,15 +183,15 @@ public class MengurutkanUnsur extends AppCompatActivity implements AdapterView.O
             public void onClick(View view) {
                 if (halogen.isChecked()) {
                     nilai = 4;
-                    aktinida.setChecked(false);aktinida.setClickable(false);
-                    bukanlogam.setChecked(false);bukanlogam.setClickable(false);
-                    gasmulia.setChecked(false);gasmulia.setClickable(false);
-                    lantanida.setChecked(false);lantanida.setClickable(false);
-                    logamalkali.setChecked(false);logamalkali.setClickable(false);
-                    logamalkalitanah.setChecked(false);logamalkalitanah.setClickable(false);
-                    logamtransisi.setChecked(false);logamtransisi.setClickable(false);
-                    metaloids.setChecked(false);metaloids.setClickable(false);
-                    poslogamtransisi.setChecked(false);poslogamtransisi.setClickable(false);
+                    aktinida.setChecked(false);aktinida.setClickable(true);
+                    bukanlogam.setChecked(false);bukanlogam.setClickable(true);
+                    gasmulia.setChecked(false);gasmulia.setClickable(true);
+                    lantanida.setChecked(false);lantanida.setClickable(true);
+                    logamalkali.setChecked(false);logamalkali.setClickable(true);
+                    logamalkalitanah.setChecked(false);logamalkalitanah.setClickable(true);
+                    logamtransisi.setChecked(false);logamtransisi.setClickable(true);
+                    metaloids.setChecked(false);metaloids.setClickable(true);
+                    poslogamtransisi.setChecked(false);poslogamtransisi.setClickable(true);
                     selanjutnya();
 
                 }
@@ -209,15 +210,15 @@ public class MengurutkanUnsur extends AppCompatActivity implements AdapterView.O
             public void onClick(View view) {
                 if (lantanida.isChecked()) {
                     nilai = 5;
-                    aktinida.setChecked(false);aktinida.setClickable(false);
-                    bukanlogam.setChecked(false);bukanlogam.setClickable(false);
-                    gasmulia.setChecked(false);gasmulia.setClickable(false);
-                    halogen.setChecked(false);halogen.setClickable(false);
-                    logamalkali.setChecked(false);logamalkali.setClickable(false);
-                    logamalkalitanah.setChecked(false);logamalkalitanah.setClickable(false);
-                    logamtransisi.setChecked(false);logamtransisi.setClickable(false);
-                    metaloids.setChecked(false);metaloids.setClickable(false);
-                    poslogamtransisi.setChecked(false);poslogamtransisi.setClickable(false);
+                    aktinida.setChecked(false);aktinida.setClickable(true);
+                    bukanlogam.setChecked(false);bukanlogam.setClickable(true);
+                    gasmulia.setChecked(false);gasmulia.setClickable(true);
+                    halogen.setChecked(false);halogen.setClickable(true);
+                    logamalkali.setChecked(false);logamalkali.setClickable(true);
+                    logamalkalitanah.setChecked(false);logamalkalitanah.setClickable(true);
+                    logamtransisi.setChecked(false);logamtransisi.setClickable(true);
+                    metaloids.setChecked(false);metaloids.setClickable(true);
+                    poslogamtransisi.setChecked(false);poslogamtransisi.setClickable(true);
                     selanjutnya();
                 }
                 else {
@@ -236,15 +237,15 @@ public class MengurutkanUnsur extends AppCompatActivity implements AdapterView.O
             public void onClick(View view) {
                 if (logamalkali.isChecked()) {
                     nilai = 6;
-                    aktinida.setChecked(false);aktinida.setClickable(false);
-                    bukanlogam.setChecked(false);bukanlogam.setClickable(false);
-                    gasmulia.setChecked(false);gasmulia.setClickable(false);
-                    halogen.setChecked(false);halogen.setClickable(false);
-                    lantanida.setChecked(false);lantanida.setClickable(false);
-                    logamalkalitanah.setChecked(false);logamalkalitanah.setClickable(false);
-                    logamtransisi.setChecked(false);logamtransisi.setClickable(false);
-                    metaloids.setChecked(false);metaloids.setClickable(false);
-                    poslogamtransisi.setChecked(false);poslogamtransisi.setClickable(false);
+                    aktinida.setChecked(false);aktinida.setClickable(true);
+                    bukanlogam.setChecked(false);bukanlogam.setClickable(true);
+                    gasmulia.setChecked(false);gasmulia.setClickable(true);
+                    halogen.setChecked(false);halogen.setClickable(true);
+                    lantanida.setChecked(false);lantanida.setClickable(true);
+                    logamalkalitanah.setChecked(false);logamalkalitanah.setClickable(true);
+                    logamtransisi.setChecked(false);logamtransisi.setClickable(true);
+                    metaloids.setChecked(false);metaloids.setClickable(true);
+                    poslogamtransisi.setChecked(false);poslogamtransisi.setClickable(true);
                     selanjutnya();
                 }
                 else {
@@ -263,15 +264,15 @@ public class MengurutkanUnsur extends AppCompatActivity implements AdapterView.O
             public void onClick(View view) {
                 if (logamalkalitanah.isChecked()) {
                     nilai = 7;
-                    aktinida.setChecked(false);aktinida.setClickable(false);
-                    bukanlogam.setChecked(false);bukanlogam.setClickable(false);
-                    gasmulia.setChecked(false);gasmulia.setClickable(false);
-                    halogen.setChecked(false);halogen.setClickable(false);
-                    lantanida.setChecked(false);lantanida.setClickable(false);
-                    logamalkali.setChecked(false);logamalkali.setClickable(false);
-                    logamtransisi.setChecked(false);logamtransisi.setClickable(false);
-                    metaloids.setChecked(false);metaloids.setClickable(false);
-                    poslogamtransisi.setChecked(false);poslogamtransisi.setClickable(false);
+                    aktinida.setChecked(false);aktinida.setClickable(true);
+                    bukanlogam.setChecked(false);bukanlogam.setClickable(true);
+                    gasmulia.setChecked(false);gasmulia.setClickable(true);
+                    halogen.setChecked(false);halogen.setClickable(true);
+                    lantanida.setChecked(false);lantanida.setClickable(true);
+                    logamalkali.setChecked(false);logamalkali.setClickable(true);
+                    logamtransisi.setChecked(false);logamtransisi.setClickable(true);
+                    metaloids.setChecked(false);metaloids.setClickable(true);
+                    poslogamtransisi.setChecked(false);poslogamtransisi.setClickable(true);
                     selanjutnya();
                 }
                 else {
@@ -290,15 +291,15 @@ public class MengurutkanUnsur extends AppCompatActivity implements AdapterView.O
             public void onClick(View view) {
                 if (logamtransisi.isChecked()) {
                     nilai = 8;
-                    aktinida.setChecked(false);aktinida.setClickable(false);
-                    bukanlogam.setChecked(false);bukanlogam.setClickable(false);
-                    gasmulia.setChecked(false);gasmulia.setClickable(false);
-                    halogen.setChecked(false);halogen.setClickable(false);
-                    lantanida.setChecked(false);lantanida.setClickable(false);
-                    logamalkalitanah.setChecked(false);logamalkalitanah.setClickable(false);
-                    logamalkali.setChecked(false);logamalkali.setClickable(false);
-                    metaloids.setChecked(false);metaloids.setClickable(false);
-                    poslogamtransisi.setChecked(false);poslogamtransisi.setClickable(false);
+                    aktinida.setChecked(false);aktinida.setClickable(true);
+                    bukanlogam.setChecked(false);bukanlogam.setClickable(true);
+                    gasmulia.setChecked(false);gasmulia.setClickable(true);
+                    halogen.setChecked(false);halogen.setClickable(true);
+                    lantanida.setChecked(false);lantanida.setClickable(true);
+                    logamalkalitanah.setChecked(false);logamalkalitanah.setClickable(true);
+                    logamalkali.setChecked(false);logamalkali.setClickable(true);
+                    metaloids.setChecked(false);metaloids.setClickable(true);
+                    poslogamtransisi.setChecked(false);poslogamtransisi.setClickable(true);
                     selanjutnya();
                 }
                 else {
@@ -317,15 +318,15 @@ public class MengurutkanUnsur extends AppCompatActivity implements AdapterView.O
             public void onClick(View view) {
                 if (metaloids.isChecked()) {
                     nilai = 9;
-                    aktinida.setChecked(false);aktinida.setClickable(false);
-                    bukanlogam.setChecked(false);bukanlogam.setClickable(false);
-                    gasmulia.setChecked(false);gasmulia.setClickable(false);
-                    halogen.setChecked(false);halogen.setClickable(false);
-                    lantanida.setChecked(false);lantanida.setClickable(false);
-                    logamalkalitanah.setChecked(false);logamalkalitanah.setClickable(false);
-                    logamalkali.setChecked(false);logamalkali.setClickable(false);
-                    logamtransisi.setChecked(false);logamtransisi.setClickable(false);
-                    poslogamtransisi.setChecked(false);poslogamtransisi.setClickable(false);
+                    aktinida.setChecked(false);aktinida.setClickable(true);
+                    bukanlogam.setChecked(false);bukanlogam.setClickable(true);
+                    gasmulia.setChecked(false);gasmulia.setClickable(true);
+                    halogen.setChecked(false);halogen.setClickable(true);
+                    lantanida.setChecked(false);lantanida.setClickable(true);
+                    logamalkalitanah.setChecked(false);logamalkalitanah.setClickable(true);
+                    logamalkali.setChecked(false);logamalkali.setClickable(true);
+                    logamtransisi.setChecked(false);logamtransisi.setClickable(true);
+                    poslogamtransisi.setChecked(false);poslogamtransisi.setClickable(true);
                     selanjutnya();
                 }
                 else {
@@ -344,15 +345,15 @@ public class MengurutkanUnsur extends AppCompatActivity implements AdapterView.O
             public void onClick(View view) {
                 if (poslogamtransisi.isChecked()) {
                     nilai = 10;
-                    aktinida.setChecked(false);aktinida.setClickable(false);
-                    bukanlogam.setChecked(false);bukanlogam.setClickable(false);
-                    gasmulia.setChecked(false);gasmulia.setClickable(false);
-                    halogen.setChecked(false);halogen.setClickable(false);
-                    lantanida.setChecked(false);lantanida.setClickable(false);
-                    logamalkalitanah.setChecked(false);logamalkalitanah.setClickable(false);
-                    logamalkali.setChecked(false);logamalkali.setClickable(false);
-                    logamtransisi.setChecked(false);logamtransisi.setClickable(false);
-                    metaloids.setChecked(false);metaloids.setClickable(false);
+                    aktinida.setChecked(false);aktinida.setClickable(true);
+                    bukanlogam.setChecked(false);bukanlogam.setClickable(true);
+                    gasmulia.setChecked(false);gasmulia.setClickable(true);
+                    halogen.setChecked(false);halogen.setClickable(true);
+                    lantanida.setChecked(false);lantanida.setClickable(true);
+                    logamalkalitanah.setChecked(false);logamalkalitanah.setClickable(true);
+                    logamalkali.setChecked(false);logamalkali.setClickable(true);
+                    logamtransisi.setChecked(false);logamtransisi.setClickable(true);
+                    metaloids.setChecked(false);metaloids.setClickable(true);
                     selanjutnya();
                 }
                 else {
@@ -517,6 +518,11 @@ public class MengurutkanUnsur extends AppCompatActivity implements AdapterView.O
 
     }
 
+    @Override
+    public boolean onSupportNavigateUp(){
+        finish();
+        return true;
+    }
 
 
 

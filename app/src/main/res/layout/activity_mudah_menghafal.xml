@@ -107,6 +107,28 @@
                 android:text="hafalan"/>
 
         </LinearLayout>
-    </LinearLayout>
 
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Suara"
+                android:layout_centerVertical="true"
+                android:id="@+id/ButtonSound"
+                android:layout_marginRight="20dp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Latihan"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center"
+            android:id="@+id/Latihan"
+            android:layout_marginRight="20dp"
+            />
+    </RelativeLayout>
 </LinearLayout>
